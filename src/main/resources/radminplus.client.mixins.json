@@ -1,0 +1,29 @@
+{
+	"required": true,
+	"package": "com.radminplus.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"refmap": "radminplus-refmap.json",
+	"client": [
+		"LanServerPingerMixin",
+		"LanServerListMixin",
+		"LanServerMixin",
+		"LanPlayEntryMixin",
+		"ServerNameResolverMixin",
+		"JoinMultiplayerScreenMixin",
+		"OnlineServerEntryMixin",
+		"ServerSelectionListMixin",
+		"ServerSelectionListInvoker",
+		"LANHeaderMixin",
+		"RegistrySyncManagerMixin",
+		"CommandsMixin",
+		"ServerGamePacketListenerImplMixin",
+		"PlayerListMixin",
+		"MinecraftServerMixin",
+		"ClientboundStatusResponsePacketMixin",
+		"ServerPlayerMixin",
+		"TitleScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
