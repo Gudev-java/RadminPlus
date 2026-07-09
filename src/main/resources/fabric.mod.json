@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "radminplus",
+	"version": "${version}",
+	"name": "RadminPlus",
+	"description": "Инструменты администрирования серверов Radmin VPN и локальной сети (команды, мут, вайтлист, баны, обход проверки модов, поиск и геймрулы).",
+	"authors": [
+		"Gudev"
+	],
+	"contact": {
+		"homepage": "https://github.com/",
+		"sources": "https://github.com/"
+	},
+	"license": "MIT",
+	"icon": "assets/radminplus/radminplus.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.radminplus.ModInit"
+		],
+		"client": [
+			"com.radminplus.client.ClientInit"
+		]
+	},
+	"mixins": [
+		"radminplus.mixins.json",
+		"radminplus.client.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": ">=1.21 <=1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
