@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.radminplus.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"refmap": "radminplus-refmap.json",
+	"mixins": [
+		"RequireMixin",
+		"ChunkMapMixin",
+		"TrackedEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
