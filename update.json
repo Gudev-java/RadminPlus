@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "url": "http://153.76.204.171:25590/download",
+  "mandatory": false,
+  "title": "Radmin Plus обновление",
+  "tilte": "Radmin Plus обновление",
+  "github_btn": "ссылка на скачивание",
+  "continue_btn": "позже",
+  "exit_btn": "выйти",
+  "changelog": [
+    "- обновленно примерно всё что можно и больше чем надо, качайте 2.0.0 пж пж"
+  ]
+}
